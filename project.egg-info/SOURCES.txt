@@ -5,6 +5,7 @@ ScraperJobs/middlewares.py
 ScraperJobs/pipelines.py
 ScraperJobs/settings.py
 ScraperJobs/spiders/LoveMondaysv3.py
+ScraperJobs/spiders/Programathor.py
 ScraperJobs/spiders/__init__.py
 ScraperJobs/spiders/infojobs.py
 project.egg-info/PKG-INFO

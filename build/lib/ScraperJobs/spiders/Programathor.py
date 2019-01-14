@@ -10,10 +10,10 @@ class LovemondaysSpider(scrapy.Spider):
         print(response)
         for job in response.xpath("/html/body/div[3]/div/div[2]/div[2]/div"):
             yield {
-            'Vaga' : job.xpath("a/div/div[2]/div/h3/text()").extract_first(),
-            'Empresa' : job.xpath("a/div/div[2]/div/div[1]/span[1]/text()").extract_first(),
-            'Cidade' : job.xpath("a/div/div[2]/div/div[1]/span[2]/text()").extract_first(),
-            'data' : job.xpath("a/div/div[2]/div/h3/span/text()").extract_first(),
+            'Vaga' : job.xpath("/a/div/div[2]/div/h3/text()").extract_first(),
+            'Empresa' : job.xpath("/a/div/div[2]/div/div[1]/span[1]/text()").extract_first(),
+            'Cidade' : job.xpath("/a/div/div[2]/div/div[1]/span[2]/text()").extract_first(),
+            'data' : job.xpath("/a/div/div[2]/div/h3/span/text()").extract_first(),
             }
         url = response.url
         print(url)
