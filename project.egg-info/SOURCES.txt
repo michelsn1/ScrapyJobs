@@ -1,0 +1,14 @@
+setup.py
+ScraperJobs/__init__.py
+ScraperJobs/items.py
+ScraperJobs/middlewares.py
+ScraperJobs/pipelines.py
+ScraperJobs/settings.py
+ScraperJobs/spiders/LoveMondaysv3.py
+ScraperJobs/spiders/__init__.py
+ScraperJobs/spiders/infojobs.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
